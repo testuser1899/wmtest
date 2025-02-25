@@ -6,6 +6,6 @@ module.exports = {
       },
     timeout : 3*60*1000,
 
-    reporter: [['html'], ['line'],['junit', { embedAnnotationsAsProperties: true, outputFile: 'playwright-report/results.xml' }],],
+    reporter: [['html'],['junit', { embedAnnotationsAsProperties: true, outputFile: 'playwright-report/results.xml' }],],
 
   };
