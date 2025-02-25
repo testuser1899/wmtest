@@ -27,7 +27,7 @@ test('10', async ({ page }) => {
   await page.goto('https://www.worldmarket.com/');
 });
 
-test('8', async ({ page }) => {
+test('9', async ({ page }) => {
   // Go to World Market homepage
   await page.goto('https://www.worldmarket.com/');
 });
