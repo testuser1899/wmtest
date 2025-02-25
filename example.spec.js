@@ -21,3 +21,59 @@ test('search and add product to bag', async ({ page }) => {
   const cartItemCount = await page.locator('.cart-item').count();
   expect(cartItemCount).toBeGreaterThan(0);
 });
+
+test('10', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+test('8', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+test('8', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('7', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('6', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('5', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('4', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('1', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+
+test('3', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
+
+test('2', async ({ page }) => {
+  // Go to World Market homepage
+  await page.goto('https://www.worldmarket.com/');
+});
