@@ -6,6 +6,6 @@ module.exports = {
       },
     timeout : 3*60*1000,
 
-    reporter: [['html'], ['line'],],
+    reporter: [['html'], ['line'],['junit', { embedAnnotationsAsProperties: true}],],
 
   };
