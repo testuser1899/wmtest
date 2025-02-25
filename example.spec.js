@@ -22,7 +22,7 @@ test('search and add product to bag', async ({ page }) => {
   expect(cartItemCount).toBeGreaterThan(0);
 });
 
-test('10', async ({ page }) => {
+test.only('10', async ({ page }) => {
   // Go to World Market homepage
   await page.goto('https://www.worldmarket.com/');
 });
